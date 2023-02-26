@@ -1,6 +1,6 @@
 # Mini-Project-SQL-Badminton-at-the-Summer-Olympics
 
-Mini project ini adalah dashboard yang berisi beberapa informasi tentang olahraga Badminton di Olimpiade Musim Panas. Mini project ini menggunakan 2 tools yaitu Tableau (untuk Dashboard) dan PostgreSQL (untuk Query SQL). Keduanya saya kerjakan secara terpisah karena saya masih menggunakan Tableau Public. Selain itu saya cantumkan query, yang mengandung output yang sama dengan isi dari dashboard tersebut kecuali distribusi umur. Pada Query yang tercantum, saya melakukan data cleaning dan membuat table relationship untuk mengetahui hubungan antar tabel yang saya gunakan. 
+Mini project ini adalah dashboard yang berisi beberapa informasi tentang olahraga Badminton di Olimpiade Musim Panas. Mini project ini menggunakan 2 tools yaitu Tableau dan PostgreSQL. Keduanya saya kerjakan secara terpisah karena saya masih menggunakan Tableau Public. Selain itu saya cantumkan query, yang mengandung output yang sama dengan isi dari dashboard tersebut kecuali distribusi umur. Pada Query yang tercantum, saya melakukan data cleaning dan membuat table relationship untuk mengetahui hubungan antar tabel yang saya gunakan. 
 
 
 Dataset yang saya gunakan berasal dari kaggle :
