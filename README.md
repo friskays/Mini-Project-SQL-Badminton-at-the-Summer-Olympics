@@ -8,5 +8,8 @@ https://www.kaggle.com/datasets/josephcheng123456/olympic-historical-dataset-fro
 Untuk dashboardnya dapat dilihat di : 
 https://public.tableau.com/app/profile/friska.yuliantika.s/viz/BadmintonattheSummerOlympics/MainDashboard?publish=yes
 
+# Dashboard 
 ![Main Dashboard](https://user-images.githubusercontent.com/114457985/221409968-49a87f9f-bcd5-48c8-877c-b77dd903de5c.png)
 
+# Table Relationships
+![ERD](https://user-images.githubusercontent.com/114457985/221410131-4c0a9a63-f680-44e2-a950-6766a12b585a.jpg)
