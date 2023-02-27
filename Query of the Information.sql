@@ -52,7 +52,7 @@ with cte as(
 	select c.country country, cast(left(ae.edition, 4) as int) Year_Event, ae.event event_title, ae.medal medal_type
 	from athlete_event_results ae
 	join country c on c.country_noc=ae.country_noc
-	where sport = 'Badminton'), 
+	where sport = 'Badminton' and medal!='na'), 
 double as (
 	select country, Year_Event, 
 		sum(case when medal_type='Gold' then 1 else 0 end)/2 Medal_Gold,
@@ -89,7 +89,6 @@ select country,
 	sum(case when Year_Event='2020' then Total_Medal else 0 end) "20",
 	sum(Total_Medal) Total_Medals
 from group_medal 
-where year_event not in (1972, 1988)
 group by 1
 having sum(Total_Medal)>0
 order by Total_Medals desc, country asc
